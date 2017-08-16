@@ -184,6 +184,10 @@ nav li a:after {
 		width: 10%;
 		margin: 0 5%;
 	}
+    
+    .footer {
+        width: 100%;
+    }
 }
 
 nav li a:hover:before {
