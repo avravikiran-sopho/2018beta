@@ -18,6 +18,10 @@ h1{
 
 	}
 }
+
+.divide {
+  width:50%!important;
+}
 hr{
 	margin-top: 00px;
 	border: 1.5px solid #dafcff;
