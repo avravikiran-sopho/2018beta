@@ -17,6 +17,12 @@ body {
 	background-color: #000;
 	color: white;
 }
+
+@media (max-width:769px) {
+    sp {
+        margin-top: 1%;
+    }
+}
 h1{
 	margin-top: 2.5em;
 	color: #fff;
@@ -302,83 +308,83 @@ footer ul li a:hover {
   border: 2px solid #fff;
 }
 
-    body {
-      background-color: #000;
-      background-image: url(/img/black-felt.png);
-      background-attachment: fixed;
-      overflow-x: hidden;
-    }
+body {
+  background-color: #000;
+  background-image: url(/img/black-felt.png);
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
 
-    .scrolled {
-      background-color: black;
-    }
+.scrolled {
+  background-color: black;
+}
 
-    .thumbnail {
-      background-color: transparent !important;
-      margin-top: 2em;
-      margin-bottom: 2em;
-    }
+.thumbnail {
+  background-color: transparent !important;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
 
-    .thumb a {
-      background-color: #fff !important;
-      background-image: url(/img/black-felt.png);
-      border: 2px solid transparent;
-      text-decoration: none;
-      transition: box-shadow 0.3s;
-      -webkit-transition-timing-function: ease-in-out;
-      transition-timing-function: ease-in-out;
-    }
+.thumb a {
+  background-color: #eeeeee !important;
+  background-image: url(/img/black-felt.png);
+  border: 2px solid transparent;
+  text-decoration: none;
+  transition: box-shadow 0.3s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
 
-    a.thumbnail:hover,
-    a.thumbnail:focus,
-    a.thumbnail.active {
-      border-color: transparent !important;
-    }
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border-color: transparent !important;
+}
 
-    .thumb a:hover {
-      box-shadow: 0 0 10px #262626, 0 0 70px #262626;
-    }
+.thumb a:hover {
+  box-shadow: 0 0 10px #262626, 0 0 70px #262626;
+}
 
-    .thumb a p {
-      text-align: center;
-    }
+.thumb a p {
+  text-align: center;
+}
 
-    .sponsor-type-title {
-      text-align: center;
-      font-size: 300%;
-      color: #fff;
-      font-weight: bold;
-    }
+.sponsor-type-title {
+  text-align: center;
+  font-size: 300%;
+  color: #fff;
+  font-weight: bold;
+}
 
-    .sponsor-name,
-    .sponsor-role {
-      color: #000;
-      white-space: nowrap;
-      overflow-x: hidden;
-    }
+.sponsor-name,
+.sponsor-role {
+  color: #000;
+  white-space: nowrap;
+  overflow-x: hidden;
+}
 
-    .sponsor-name {
-      font-weight: bold;
-      font-size: 18px;
-    }
+.sponsor-name {
+  font-weight: bold;
+  font-size: 18px;
+}
 
-    .sponsor-role {
-      font-size: 15px;
-    }
+.sponsor-role {
+  font-size: 15px;
+}
 
-    @media only screen and (max-width: 768px) {
-      .threecolfixz {
-        display: none;
-      }
-    }
+@media only screen and (max-width: 768px) {
+  .threecolfixz {
+    display: none;
+  }
+}
 
-    h4 {
-      text-align: center;
-    }
+h4 {
+  text-align: center;
+}
 
-    legend, h4{
-      font-family: 'Josefin Sans', sans-serif!important;
-    }
+legend, h4{
+  font-family: 'Josefin Sans', sans-serif!important;
+}
 .md-close {
       color: #fff;
       margin-top: 6em !important;
@@ -489,6 +495,13 @@ nav{
 
 .sp{
   height: 300px;
+    margin-top: 1%;
+    
+}
+@media (max-width:769px) {
+    .sp {
+        margin-top: 5%;
+    }
 }
 
 
