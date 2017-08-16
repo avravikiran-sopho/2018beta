@@ -327,6 +327,11 @@ Burger king
   width: 34px;
   display: block;
   cursor: pointer;
+background-color: rgba(0, 0, 0, 0.5);
+padding: 1%;
+border-radius: 50%;
+padding-top: 0.5%;
+pointer-events: auto;
 }
 
 .open-overlay span {
@@ -408,7 +413,7 @@ Animation keyframes
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
-    background-color: #29363B;
+    background-color: #ffffff;
   }
 }
 
@@ -448,7 +453,7 @@ Animation keyframes
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
-    background-color: #29363B;
+    background-color: #ffffff;
   }
 }
 
@@ -472,7 +477,7 @@ Animation keyframes
     background-color: #fff;
   }
   100% {
-    background-color: #29363B;
+    background-color: #ffffff;
   }
 }
 
