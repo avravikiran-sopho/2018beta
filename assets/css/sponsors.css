@@ -16,6 +16,7 @@
 body {
 	background-color: #000;
 	color: white;
+    overflow-x: hidden;
 }
 
 @media (max-width:769px) {
