@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+body{
+	background: #000;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #fff;
+}
+.btn-2 {
+  letter-spacing: 0;
+}
+.btn-2:hover, .btn-2:active p{
+  color: white;
+}
+.btn-2:after, .btn-2:before {
+  backface-visibility: hidden;
+  border: 1px solid rgba(255, 255, 255, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+.btn-2:not(.active):hover:after,.active:after {
+  backface-visibility: hidden;
+  border-color: #DAFCFF;
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+.btn-2:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
+
+@media (max-width:769px) {
+    nav li {
+        background-color: #000;
+    }
+  nav li:nth-of-type(1){   
+    width: 100%;
+    margin: auto;
+      z-index: 1000;
+  }
+  nav li:nth-of-type(2){   
+    width: 100%;
+    margin: auto;
+      z-index: 1000;
+  }
+  nav li:nth-of-type(3){
+    width: 100%;
+    margin: auto;
+      z-index: 1000;
+  }
+  nav li:nth-of-type(4){
+    width: 100%;
+    margin: auto;
+      z-index: 1000;
+  }
+  nav li:nth-of-type(5){    
+    width: 100%;
+    margin: auto;
+      z-index: 1000;
+  }
+  nav li:nth-of-type(6){   
+    width: 100%;
+    margin: auto;
+      z-index: 1000;
+  }
+}
+/* general styles */
+html, body {
+height: 100%;
+width: 100%;
+}
+/* padded section */
+.pad-section {
+padding: 50px 0;
+}
+.pad-section img {
+width: 100%;
+}
+/* additional sections */
+#home {
+background: url("../img/iot_workshop.jpg") no-repeat center center fixed; 
+display: table;
+height: 100%; 
+position: relative;
+width: 100%;
+-webkit-background-size: 80%;
+-moz-background-size: 80%;
+-o-background-size:60%;
+background-size: 50%;
+/*-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size:cover;
+background-size: cover;*/
+}
+#about {
+}
+#services {
+background-color: #306d9f;
+color: #ffffff;
+}
+#services .glyphicon {
+border: 2px solid #FFFFFF;
+border-radius: 50%;
+display: inline-block;
+font-size: 60px;
+height: 140px;
+line-height: 140px;
+text-align: center;
+vertical-align: middle;
+width: 140px;
+}
+#information {
+background: url(../images/estate.jpg) no-repeat center center fixed; 
+display: table;
+height: 800px;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#information .panel {
+opacity: 0.85;
+}
+#google_map {
+height: 500px;
+}
+footer {
+padding: 20px 0;
+}
+footer .glyphicon {
+color: #333333;
+font-size: 60px;
+}
+footer .glyphicon:hover {
+color: #306d9f;
+}
+
+.heading{
+	color: #fff;
+	text-transform:uppercase;
+}
+
+.hl{
+  text-align: center;
+  list-style-type: none;
+}
+
+.hl li{
+	font-size: 18px;
+	/*margin-left: 8em;*/
+	margin-bottom: 1em;
+}
+
+.d1{
+    margin-top: 2em;
+}
+
+
+.d1-lead{
+  font-size: 24px;
+  margin-left:5em;
+}
+
+.d1 li{
+  font-size: 18px;
+  margin-left: 8em;
+  margin-bottom: 1em;
+}
+
+#highlights,#contact{
+  background-color: #306D9F;
+}
+
+.row-c{
+  display: inline-block;
+}
+
+.card-block p{
+  text-align: center;
+}
+
+.fa {
+  color: #FFF;
+  text-shadow: 1px 1px 0px #000,
+      1px -1px 0px #000,
+      -1px 1px 0px #000,
+      -1px -1px 0px #000;
+  -webkit-text-shadow: 1px 1px 0px #000,
+      1px -1px 0px #000,
+      -1px 1px 0px #000,
+      -1px -1px 0px #000;
+  -moz-text-shadow: 1px 1px 0px #000,
+      1px -1px 0px #000,
+      -1px 1px 0px #000,
+      -1px -1px 0px #000;
+  -o-text-shadow: 1px 1px 0px #000,
+      1px -1px 0px #000,
+      -1px 1px 0px #000,
+      -1px -1px 0px #000;
+  transition: all ease-out 0.5s;
+  -moz-transition: all ease-out 0.5s;
+  -webkit-transition: all ease-out 0.5s;
+  -o-transition: all ease-out 0.5s;
+}
+
+.fa:hover {
+  color: #000;
+  text-shadow: 1px 1px 0px #fff,
+      1px -1px 0px #fff,
+      -1px 1px 0px #fff,
+      -1px -1px 0px #fff;
+  -webkit-text-shadow: 1px 1px 0px #fff,
+      1px -1px 0px #fff,
+      -1px 1px 0px #fff,
+      -1px -1px 0px #fff;
+  -moz-text-shadow: 1px 1px 0px #fff,
+      1px -1px 0px #fff,
+      -1px 1px 0px #fff,
+      -1px -1px 0px #fff;
+  -o-text-shadow: 1px 1px 0px #fff,
+      1px -1px 0px #fff,
+      -1px 1px 0px #fff,
+      -1px -1px 0px #fff;
+  transition: all ease 0.5s;
+  -moz-transition: all ease-in 0.5s;
+  -webkit-transition: all ease-in 0.5s;
+  -o-transition: all ease-in 0.5s;
+}
+.socialbtns li a{
+  text-decoration: none;
+}
+
+.socialbtns li{
+  list-style-type: none;
+}
+
+.socialbtns{
+  text-align: center;
+}

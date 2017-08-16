@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('../assets/fonts/Exo-Regular.otf');
+@import url('../assets/fonts/georgia.ttf');
 body{
 	background: #000;
 	font-family: 'Josefin Sans', sans-serif;
@@ -9,7 +11,7 @@ h1{
 	
 	color: #fff;
 	text-align: center;
-	font-family: 'Josefin Sans',sans-serif;
+	font-family: 'georgia',sans-serif;
 	margin-bottom: 0;
 	/*padding-top: 25px;*/
 }
