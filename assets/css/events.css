@@ -274,7 +274,7 @@ figure.effect-bubba h4 {
 figure.effect-bubba h4 {
 	padding-top: 10%;
   font-weight: 300;
-  font-size: 2em;
+  font-size: 1.5em;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	opacity: 0;

@@ -6,7 +6,7 @@
     font-size: 14px;
     /*background-color: #000;*/
     background-color: #0a0a02!important;
-background-image: url("https://www.transparenttextures.com/patterns/binding-dark.png");
+    background-image: url("../img/texture.png")!important;
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 /*.navbar-default {
@@ -56,14 +56,16 @@ background-image: url("https://www.transparenttextures.com/patterns/binding-dark
 }
 .navbar-transparent{
     padding-top: 15px;
-    background-color: rgba(0,0,0,1);
+    background-color: #0a0a02!important;
+    background-image: url("../img/texture.png")!important;
 }
 .navbar-transparent .navbar-brand, [class*="navbar-ct"] .navbar-brand{
     color: #FFFFFF;
     opacity: 0.95;
 }
 .navbar-transparent .navbar-brand:hover, .navbar-transparent .navbar-brand:focus {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #0a0a02!important;
+    background-image: url("../img/texture.png")!important;
     color: #5E5E5E;
 }
 .navbar-transparent .nav .caret{
@@ -80,7 +82,8 @@ background-image: url("https://www.transparenttextures.com/patterns/binding-dark
 }
 
 .navbar-transparent .navbar-brand:hover, .navbar-transparent .navbar-brand:focus, [class*="navbar-ct"] .navbar-brand:hover, [class*="navbar-ct"] .navbar-brand:focus {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #0a0a02!important;
+    background-image: url("../img/texture.png")!important;
     color: #FFFFFF;
     
 }
@@ -465,3 +468,8 @@ h4{
   top: 0;
   width: 70%;
 }*/
+
+.nav>li>a:hover{
+    background-color: #0a0a02!important;
+    background-image: url("../img/texture.png")!important;
+}

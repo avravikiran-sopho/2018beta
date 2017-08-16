@@ -279,6 +279,10 @@ nav li:nth-of-type(5) {
   }
 }
 
+.h4 {
+    font-size: 2em;
+}
+
 @media (max-width: 768px) {
   nav ul {
     -webkit-box-orient: vertical;
