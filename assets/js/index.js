@@ -60,8 +60,8 @@
        }
      })
 
-    
-      $(window).load(function() {    
+
+      $(window).load(function() {
 
         var theWindow        = $(window),
             $bg              = $("#bg"),
