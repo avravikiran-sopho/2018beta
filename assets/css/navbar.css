@@ -4,12 +4,15 @@
     transition: all 0.4s;
     -webkit-transition: all 0.4s;
     font-size: 14px;
-    background-color: #000;
+    /*background-color: #000;*/
+    background-color: #0a0a02!important;
+background-image: url("https://www.transparenttextures.com/patterns/binding-dark.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
-.navbar-default {
+/*.navbar-default {
     background-color: #D9D9D9;
     
-}
+}*/
 .navbar .navbar-brand {
     font-weight: 600;
     margin-top: 13px;
