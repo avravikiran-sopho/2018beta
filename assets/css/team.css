@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:400|Raleway');
-@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,400');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-body{
-  position: relative;
-  background-color: black;
-  overflow-x: hidden;
+@import url('../assets/fonts/exo.otf');
+body {
+  font-family: 'Josefin-Sans',sans-serif;
+    position: relative;
+    background-color: #0a0a02!important;
+  background-image: url("../img/texture.png")!important;
 }
 h1{
 
@@ -472,4 +472,8 @@ figure.effect-bubba:hover img {
 
 .nav ul li {
     margin: auto;
+}
+.card{
+   background-color: #0a0a02!important;
+  background-image: url("../img/texture.png")!important;
 }

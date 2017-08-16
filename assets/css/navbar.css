@@ -436,7 +436,8 @@ h4{
 }
 
 .nav>li>a:focus, .nav>li>a:hover{
-    background-color: #000!important;
+    background-color: #0a0a02!important;
+    background-image: url("../img/texture.png")!important;
 }
 
 /*Hover Effect*/
@@ -469,7 +470,4 @@ h4{
   width: 70%;
 }*/
 
-.nav>li>a:hover{
-    background-color: #0a0a02!important;
-    background-image: url("../img/texture.png")!important;
-}
+
