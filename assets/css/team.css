@@ -18,7 +18,23 @@ h1{
 
 	}
 }
-
+.footerimg {
+	width: 3%;
+	margin: 0 5%;
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+  margin-top: 5%;
+}
+@media (max-width:767px) {
+	.footerimg {
+		width: 10%;
+		margin: 0 5%;
+	}
+}
 .divide {
   width:50%!important;
 }

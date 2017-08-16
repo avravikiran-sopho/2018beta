@@ -33,6 +33,12 @@ body {
   }
 }
 
+@media(min-width:767px) {
+  .vmenu {
+    display: none!important;
+  }
+  }
+
 /* ====================================
 Navigation
 ==================================== */
@@ -132,17 +138,35 @@ nav li a:after {
   font-style: italic;
   letter-spacing: 0;
 }
+.footerimg {
+	width: 5%;
+	margin: 0 5%;
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+  z-index: 100;
+  background-color: #000;
+}
+@media (max-width:767px) {
+	.footerimg {
+		width: 10%;
+		margin: 0 5%;
+	}
+}
 
 nav li a:hover:before {
   -webkit-transform: translateX(0);
   transform: translateX(0);
-  opacity: 1;
+  opacity: 0;
 }
 
 nav li a:hover:after {
   -webkit-transform: translateY(15px);
   transform: translateY(15px);
-  opacity: 1;
+  opacity: 0;
 }
 
 nav li a div#abt{
@@ -158,7 +182,7 @@ nav li a div#sp{
 nav li a div#ca{
   position: absolute;
   top:46%;
-  left:20%;
+  left:40%;
 }
 nav li a div#wk{
   position: absolute;

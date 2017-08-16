@@ -23,6 +23,25 @@ hr{
     -moz-box-shadow: 0px 0px 289px 104px rgba(0,131,177,0.77);
     box-shadow: 0px 0px 13px 2px rgba(0,131,177,0.77);
 }
+.footerimg {
+	width: 3%;
+	margin: 0 5%;
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+  bottom: 0;
+  left: 0;
+	text-align: center;
+	width: 100%;
+}
+@media (max-width:767px) {
+	.footerimg {
+		width: 10%;
+		margin: 0 5%;
+	}
+}
 
 .row-container{
 	margin-top: 2%;
@@ -44,7 +63,7 @@ hr{
 	color: white;
 	margin-top: 2em;
 	text-align: center;
-	margin-top: 5em;	
+	margin-top: 5em;
 }
 
 .register-btn {
