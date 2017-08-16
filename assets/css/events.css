@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 body {
   font-family: 'Josefin-Sans',sans-serif;
+    position: relative;
+    
 }
 h1{
   color: #fff;
@@ -314,24 +316,43 @@ figure.effect-bubba:hover p {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
+.navbar {
+    padding: 0;
+    margin: 0;
+}
 @media (max-width:769px) {
-  nav li:nth-of-type(1){
-    margin-left:7.5em;
+    nav li {
+        background-color: #000;
+    }
+  nav li:nth-of-type(1){   
+    width: 100%;
+    margin: auto;
+      z-index: 1000;
   }
-  nav li:nth-of-type(2){
-    margin-left:3.5em;
+  nav li:nth-of-type(2){   
+    width: 100%;
+    margin: auto;
+      z-index: 1000;
   }
   nav li:nth-of-type(3){
-    margin-left:6em;
+    width: 100%;
+    margin: auto;
+      z-index: 1000;
   }
   nav li:nth-of-type(4){
-    margin-left:7em;
+    width: 100%;
+    margin: auto;
+      z-index: 1000;
   }
-  nav li:nth-of-type(5){
-    margin-left:3em;
+  nav li:nth-of-type(5){    
+    width: 100%;
+    margin: auto;
+      z-index: 1000;
   }
-  nav li:nth-of-type(6){
-    margin-left:7.5em;
+  nav li:nth-of-type(6){   
+    width: 100%;
+    margin: auto;
+      z-index: 1000;
   }
 }
 .btn-2 {
