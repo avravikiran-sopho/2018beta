@@ -37,13 +37,13 @@
               </a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right" style="cursor:pointer;">
                     <li id="about-btn">
                         <a class="btn-2">
                             <p>About</p>
                         </a>
                     </li>
-                    <li id="register-btn">
+                    <li id="registerbtn">
                         <a class="btn-2">
                             <p>Register</p>
                         </a>
@@ -76,7 +76,7 @@
 <!--  end navbar -->
 <!-- first section - Home -->
 <div id="home" class="home"></div>
-      <div class="text-center" id="arrow-div" style=" margin-top:-2em;font-size:3em;"><i id="arrow" class="fa fa-chevron-down"  aria-hidden="true"></i></div>
+      <div  class="text-center" style="margin-top:-2em;font-size:3em;"><i id="arrow" class="fa fa-chevron-down"  aria-hidden="true"></i></div>
 <!-- /first section -->
 <!-- second section - About -->
 <div id="about" class="pad-section">
@@ -264,11 +264,7 @@ Fee per person - ₹ 1000/- <br></div>
       $.extend($.scrollTo.defaults,{
           axis:'y',duration:800
       });
-    $('#arrow-div').on('click', '.fa.fa-chevron-down', function () {
-        console.log("dd");
-  		$(window).scrollTo($("#about"));
-  		$(window).scrollTo("-=20px");
-  	});
+   
   	$('#about-btn').on('click',function () {
   		$(window).scrollTo($("#about"));
   		$(window).scrollTo("-=20px");
@@ -292,7 +288,21 @@ Fee per person - ₹ 1000/- <br></div>
   	$('#hospitality-btn').on('click',function () {
   		$(window).scrollTo($("#hospitality"));
   		$(window).scrollTo("-=45px");
-  	});
+  	});     
+      
+      
+    $(document).ready(function() {
+        $("#arrow").fadeTo( "slow", 0.33 );
+    });
+      
+    
+      
+      $(function () {
+    var $element = $('#arrow');
+    setInterval(function () {
+        $element.fadeIn(500).fadeOut(500)
+    }, 1000);
+});
       
     $(function(){
         var navMain = $(".navbar-collapse"); // avoid dependency on #id

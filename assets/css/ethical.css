@@ -313,6 +313,7 @@ color: #306d9f;
 }
 /* Global Button Styles */
 a.animated-button:link, a.animated-button:visited {
+    cursor: default;
   position: relative;
   display: block;
   margin: 30px auto 0;
