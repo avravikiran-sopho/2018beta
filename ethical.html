@@ -24,7 +24,7 @@
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-ct-blue navbar-transparent navbar-fixed-top" role="navigation">
-      <div class="container" style="width:100%!important;max-width:1920px;margin:0;padding:0;">
+      <div class="container" style="width:90%!important;max-width:1920px;margin:auto;padding:0;">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Toggle navigation</span>
@@ -76,7 +76,7 @@
 <!--  end navbar -->
 <!-- first section - Home -->
 <div id="home" class="home"></div>
-      <div class="text-center" id="arrow-div" style=" margin-top:-2em;font-size:3em;"><a><i id="arrow" class="fa fa-chevron-down"  aria-hidden="true"></i></a></div>
+      <div class="text-center" id="arrow-div" style=" margin-top:-2em;font-size:3em;"><i id="arrow" class="fa fa-chevron-down"  aria-hidden="true"></i></div>
 <!-- /first section -->
 <!-- second section - About -->
 <div id="about" class="pad-section">
@@ -250,6 +250,9 @@ Fee per person - ₹ 1000/- <br></div>
 </div>
 </div>
 </div>
+<div class="footer"><a href="https://twitter.com/elan_iith"><img class="footerimg" src="./assets/img/footer/twitter.png"></a><a href="https://www.facebook.com/elan.iithyderabad/"><img class="footerimg" src="./assets/img/footer/fb.png"></a><a href="https://www.instagram.com/elan_iith/"><img class="footerimg" src="./assets/img/footer/insta.png"></a>
+    <a href="https://www.youtube.com/user/ElanIITHyderabad"><img class="footerimg" src="./assets/img/footer/yt.png"></a></div>
+
 </body>
   <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
   <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
@@ -257,6 +260,9 @@ Fee per person - ₹ 1000/- <br></div>
   <script type="text/javascript" src="./assets/js/scroll.min.js"></script>
 
   <script>
+      $.extend($.scrollTo.defaults,{
+          axis:'y',duration:800
+      });
     $('#arrow-div').on('click', '.fa.fa-chevron-down', function () {
         console.log("dd");
   		$(window).scrollTo($("#about"));
