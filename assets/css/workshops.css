@@ -17,6 +17,7 @@ h1{
   margin-left: 5em;
 	/*padding-top: 25px;*/
 }
+
 hr{
 	margin: auto;
 	margin-top: 0.4em;
@@ -199,3 +200,27 @@ a.animated-button.victoria-three:hover:after {
       z-index: 1000;
   }
 }
+
+@media(max-width:768px){
+  body{
+    overflow-x: hidden;
+  }
+  .text-heading{
+  font-size: 3em;
+  margin-left: 0.1em;
+  margin-top:1.2em;
+  }
+  hr{
+    margin-left: 3em;
+    width: 70%;
+    margin-bottom: 2em;
+  }
+
+}
+
+@media(min-width: 768px){
+    .wdesc{
+    margin-left:19em;
+  }
+}
+
