@@ -206,26 +206,31 @@ nav li a div#abt{
   position: absolute;
   top:46%;
   left:40%;
+    font-size: 2em;
 }
 nav li a div#sp{
   position: absolute;
   top:46%;
-  left:35%;
+  left:31%;
+    font-size: 2em;
 }
 nav li a div#ca{
   position: absolute;
   top:46%;
-  left:40%;
+  left:36%;
+    font-size: 2em;
 }
 nav li a div#wk{
   position: absolute;
   top:46%;
-  left:35%;
+  left:27%;
+    font-size: 2em;
 }
 nav li a div#eve{
   position: absolute;
   top:46%;
   left:40%;
+    font-size: 2em;
 }
 
 nav li:nth-of-type(1) {
@@ -338,6 +343,13 @@ padding-top: 0.5%;
 pointer-events: auto;
 }
 
+@media (max-width:769px) {
+    .open-overlay {
+        border-radius: 10%;
+        padding:5px;
+        
+    }
+}
 .open-overlay span {
   display: block;
   height: 1px;
