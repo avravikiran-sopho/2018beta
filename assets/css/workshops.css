@@ -21,9 +21,9 @@ h1{
 hr{
 	margin: auto;
 	margin-top: 0.4em;
-    margin-left: 50%;
+    margin-left: 45%;
 	border: 1.5px solid #dafcff;
-    width: 20%;
+    width: 30%;
     text-align: center;
     
 }
@@ -142,12 +142,12 @@ a.animated-button.victoria-three:hover:after {
 	color: #FFF;
 	font-size: 20px;
 	font-family: 'Josefin Sans',sans-serif;
-	margin-left: 80px;
+	margin-left: 15px;
 }
 
 @media (max-width: 768px) {
 	.cat{
-		margin-left:0;
+		
 		text-align: center;
 	}
 }
@@ -161,6 +161,7 @@ a.animated-button.victoria-three:hover:after {
 }
 .btn-2:hover, .btn-2:active p{
   color: white;
+    
 }
 .btn-2:after, .btn-2:before {
   backface-visibility: hidden;
@@ -220,6 +221,24 @@ a.animated-button.victoria-three:hover:after {
       z-index: 1000;
   }
 }
+
+.mhr {
+    width:15%!important;
+    margin-left: 1%!important;
+}
+
+@media (max-width:768px){
+    .pill {
+    text-align:center!important;
+    }
+    
+    .mhr {
+    width:80!important;
+    margin:auto!important;
+}
+}
+    
+
 
 @media(max-width:768px){
   body{

@@ -33,7 +33,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand navbar-brand-logo" href="index.html">
-                <div class="logo nav-logo"><img src="./assets/img/logo-big.png" style="max-width: 100%;"/></div>
+                <div class="logo nav-logo"><img src="./assets/img/logo-big.png" style="max-width: 100%;background-color:#000;"/></div>
               </a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -291,20 +291,7 @@ Fee per person - ₹ 1000/- <br></div>
   		$(window).scrollTo("-=45px");
   	});     
       
-      
-    $(document).ready(function() {
-        $("#arrow").fadeTo( "slow", 0.33 );
-    });
-      
-    
-      
-      $(function () {
-    var $element = $('#arrow');
-    setInterval(function () {
-        $element.fadeIn(500).fadeOut(500)
-    }, 1000);
-});
-      
+            
     $(function(){
         var navMain = $(".navbar-collapse"); // avoid dependency on #id
         // "a:not([data-toggle])" - to avoid issues caused
