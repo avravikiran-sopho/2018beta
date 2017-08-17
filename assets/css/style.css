@@ -253,7 +253,7 @@ nav li:nth-of-type(5) {
   background-color: #99B998
 }
 
-@media (min-width:789px) {
+@media (min-width:720px) {
   nav li:nth-of-type(1) {
     background-image: url("../img/backdrop/ABOUT_US.jpeg");
 	background-position:center;
