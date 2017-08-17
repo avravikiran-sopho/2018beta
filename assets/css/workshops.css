@@ -54,16 +54,7 @@ hr{
 	margin-top: 2%;
 }
 
-.custom-scrollbar::-webkit-scrollbar{
-    background-color: #dafcff;
-    border-radius: 2px;
-    width: 5px;
-}
 
-.custom-scrollbar::-webkit-scrollbar:hover{
-    background-color: #dafcff;
-    border-radius: 5px;
-}
 
 .desc{
 	font-family: 'Josefin Sans', sans-serif;
