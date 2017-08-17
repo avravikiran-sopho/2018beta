@@ -76,6 +76,7 @@
 <!--  end navbar -->
 <!-- first section - Home -->
 <div id="home" class="home"></div>
+      <div class="text-center" id="arrow-div" style=" margin-top:-2em;font-size:3em;"><a><i id="arrow" class="fa fa-chevron-down"  aria-hidden="true"></i></a></div>
 <!-- /first section -->
 <!-- second section - About -->
 <div id="about" class="pad-section">
@@ -86,10 +87,11 @@
 <p class="lead">About
 Hacking is a widely revered and celebrated skill and is often fantasised. Ethical hacking is an important tool in today's world and many national security agencies and the multinational companies all around the globe make extensive use of it. An ethical hacker is usually employed with the organization and can be trusted to undertake an attempt to penetrate networks and/or computer systems using the same methods as a Hacker. The goal of hiring an ethical hacker is to help the organization take pre-emptive measures against malicious attacks by outside miscreants through attacking their own system by themselves; all the while staying within legal limits. <br><br>
 This workshop conducted by Elan & ηvision, IIT Hyderabad in association with Azure Skynet presents  is specifically designed to provide the right knowledge to the aspiring Cyber Forensics & Ethical Hacking enthusiasts. This workshop will explore the various means that an intruder has available to gain access to computer resources. It will investigate weaknesses of cyber security systems by discussing the theoretical background behind it, and whenever possible, actually performing the attacks.<br><br><br>
+<div id="register" class="lead">
 Venue : IIT Hyderabad <br>
 Date : 26th and 27th August <br>
 Timing : 10:00 AM to 6:00 PM <br>
-Fee per person - ₹ 1000/- <br>
+Fee per person - ₹ 1000/- <br></div>
 </p>
 <div class="row text-center" id="register">
 		  <div class="col-md-3 col-sm-3 col-xs-6 col-md-offset-3"><a href="#" class="btn btn-sm animated-button thar-three">Pay</a></div>
@@ -248,39 +250,43 @@ Fee per person - ₹ 1000/- <br>
 </div>
 </div>
 </div>
-<!-- footer -->
-<footer>
-<hr />
-<div class="container">
-<p class="text-right">&copy;ELAN & &eta;vision2017</p>
-</div>
-</footer>
-<!-- /footer -->
-
-  </body>
+</body>
   <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
   <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="./assets/js/navbar.js"></script>
   <script type="text/javascript" src="./assets/js/scroll.min.js"></script>
+
   <script>
+    $('#arrow-div').on('click', '.fa.fa-chevron-down', function () {
+        console.log("dd");
+  		$(window).scrollTo($("#about"));
+  		$(window).scrollTo("-=20px");
+  	});
   	$('#about-btn').on('click',function () {
-  		$(window).scrollTo("780px");
+  		$(window).scrollTo($("#about"));
+  		$(window).scrollTo("-=20px");
   	});
   	$('#register-btn').on('click',function () {
-  		$(window).scrollTo("780px");
+  		$(window).scrollTo($("#register"));
+  		$(window).scrollTo("-=100px");
   	});
   	$('#highlights-btn').on('click',function () {
-  		$(window).scrollTo("1550px");
+  		$(window).scrollTo($("#highlights"));
+  		$(window).scrollTo("-=45px");
   	});
   	$('#outline-btn').on('click',function () {
-  		$(window).scrollTo("2100px");
+  		$(window).scrollTo($("#outline"));
+  		$(window).scrollTo("-=45px");
   	});
   	$('#contact-btn').on('click',function () {
-  		$(window).scrollTo("3300px");
+  		$(window).scrollTo($("#contact"));
+  		$(window).scrollTo("-=45px");
   	});
   	$('#hospitality-btn').on('click',function () {
-  		$(window).scrollTo("3500px");
+  		$(window).scrollTo($("#hospitality"));
+  		$(window).scrollTo("-=45px");
   	});
   </script>
+
 </html>
 
