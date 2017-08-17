@@ -24,11 +24,11 @@ body {
 
 @media (max-width:767px) {
   #bg {
-      width: 175%;
+      width: 250%;
       height: 100%;
       position: fixed;
       top: 0;
-      left: -140px;
+      left: 75%;
       z-index: -100;
   }
 }
