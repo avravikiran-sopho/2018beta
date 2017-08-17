@@ -42,9 +42,10 @@ h1{
 hr{
 	margin-top: 00px;
 	border: 1.5px solid #dafcff;
-  width: 20%!important;
+  width: 15%!important;
   text-align: center;
-  }
+  
+}
 /*
 .carousel-inner > .item {
   opacity: 0;
