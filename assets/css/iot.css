@@ -5,6 +5,12 @@ body{
   font-family: 'Josefin Sans', sans-serif;
   color: #fff;
 }
+.navbar-transparent .navbar-brand:hover, .navbar-transparent .navbar-brand:focus, [class*="navbar-ct"] .navbar-brand:hover, [class*="navbar-ct"] .navbar-brand:focus {
+    background-color: #000000!important;
+    background-image: url("../im/texture.png")!important;
+    color: #FFFFFF;
+    
+}
 .btn-2 {
   letter-spacing: 0;
 }
