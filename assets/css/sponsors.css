@@ -50,11 +50,7 @@ h1{
 	margin-bottom: 0;
 	font-size:63px;
 }
-@media(max-width: 769px){
-	h1{
-		margin-top: 3em;
-	}
-}
+
 @media (max-width:767px) {
 	.footerimg {
 		width: 10%;
