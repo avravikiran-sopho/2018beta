@@ -335,6 +335,7 @@ a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
   height: 450%;
 }
 a.animated-button:link, a.animated-button:visited {
+    cursor: pointer;
   position: relative;
   display: block;
   margin: 30px auto 0;
