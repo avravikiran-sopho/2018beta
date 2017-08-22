@@ -52,22 +52,5 @@
   <script type='text/javascript' src="assets/js/velocity.js"></script>
   <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js'></script>
   <script type='text/javascript' src="assets/js/index.js"></script>
-    <script>
-function clickCounter() {
-    if(typeof(Storage) !== "undefined") {
-        if (localStorage.clickcount) {
-            localStorage.clickcount = Number(localStorage.clickcount)+1;
-        } else {
-            localStorage.clickcount = 1;
-        }
-         console.log(localStorage.clickcount);
-    } else {
-        console.log("Sorry, your browser does not support web storage...");
-    }
-}
-$(document).ready(function(){
-    clickCounter();
-});
-
-</script>
+    
 </html>
