@@ -455,3 +455,8 @@ a.animated-button.thar-four {
   background-color: #000!important;
   background-image: none!important;
 }
+
+.details-list{
+  text-align:left!important;
+  list-style-type: disc;
+}
