@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:400|Raleway');
-@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,400');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-body{
-  position: relative;
-  background-color: black;
+@import url('../assets/fonts/exo.otf');
+body {
+  font-family: 'Josefin-Sans',sans-serif;
+    position: relative;
+    background-color: #0a0a02!important;
+  background-image: url("../img/texture.png")!important;
 }
 h1{
 
@@ -20,20 +21,57 @@ h1{
 }
 .footerimg {
 	width: 3%;
-	margin: 0 5%;
+	margin: 0 1%;
 }
 .footer {
-	position: absolute;
-	bottom: 0;
+	
+	right: 0;
+  bottom: 0;
+  left: 0;
 	text-align: center;
 	width: 100%;
-  margin-top: 5%;
+	z-index: 100;
+	
 }
+
 @media (max-width:767px) {
 	.footerimg {
 		width: 10%;
 		margin: 0 5%;
 	}
+    
+    .footer {
+        width: 100%;
+    }
+}
+.footerimg {
+  	opacity: 0.9;
+    border-radius: 50%;
+  	-webkit-transition: opacity 0.35s;
+  	transition: opacity 0.35s;
+  	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+ .footerimg:hover {
+
+  	opacity: 1;
+      -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,1);
+      -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,1);
+      box-shadow: 0px 0px 20px 0px rgba(0,0,0,1);
+
+  	-webkit-transform: scale(1.3);
+      -moz-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+      -o-transform: scale(1.3);
+      transform: scale(1.3);
+  	-webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
 }
 .divide {
   width:50%!important;
@@ -41,11 +79,9 @@ h1{
 hr{
 	margin-top: 00px;
 	border: 1.5px solid #dafcff;
-  width: 20%!important;
+  width: 15%!important;
   text-align: center;
-  -webkit-box-shadow: 0px 0px 289px 104px rgba(0,131,177,0.77);
-  -moz-box-shadow: 0px 0px 289px 104px rgba(0,131,177,0.77);
-  box-shadow: 0px 0px 13px 2px rgba(0,131,177,0.77);
+  
 }
 /*
 .carousel-inner > .item {
@@ -328,7 +364,7 @@ hr {
 a, a:hover {
 	color: #000;
 	text-decoration: none;
-	padding: 5px;
+	
 }
 
 .socialbtnsbtnsbtns, .socialbtnsbtnsbtns ul, .socialbtnsbtnsbtns li {
@@ -471,4 +507,8 @@ figure.effect-bubba:hover img {
 
 .nav ul li {
     margin: auto;
+}
+.card{
+   background-color: #0a0a02!important;
+  background-image: url("../img/texture.png")!important;
 }
