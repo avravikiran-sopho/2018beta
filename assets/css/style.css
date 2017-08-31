@@ -644,3 +644,52 @@ Animation keyframes
     width: 25px;
   }
 }
+
+/* General button style (reset) */
+.btn {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 0;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* Button 1 */
+.btn-1 {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+/* Button 1a */
+.btn-1a:hover,
+.btn-1a:active {
+  /*color: #0e83cd;*/
+  color: #d9534f;
+  border: 3px solid #d9534f;
+  background: #fff;
+}
+
+.footer-btn{
+  position: absolute;
+  left: 1em;
+  bottom: 1em;
+}
