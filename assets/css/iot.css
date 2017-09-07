@@ -102,7 +102,7 @@ body{
 }
 
 
-@media (max-width:769px) {
+@media (max-width:767px) {
     
   nav li {
         background-color: #000;
@@ -152,7 +152,7 @@ width: 100%;
 }
 /* additional sections */
 #home {
-background: url("../img/iot_workshop.jpg") no-repeat center center fixed; 
+background: url("../img/ca_boost.jpg") no-repeat center center fixed; 
 display: table;
 height: 100%; 
 position: relative;
@@ -160,7 +160,7 @@ width: 100%;
 -webkit-background-size: 80%;
 -moz-background-size: 80%;
 -o-background-size:60%;
-background-size: 50%;
+background-size: 60%;
 /*-webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size:cover;
@@ -194,6 +194,12 @@ width: 140px;
 }
 
 .hl li{
+  font-size: 18px;
+  /*margin-left: 8em;*/
+  margin-bottom: 1em;
+}
+
+.hl p{
   font-size: 18px;
   /*margin-left: 8em;*/
   margin-bottom: 1em;
