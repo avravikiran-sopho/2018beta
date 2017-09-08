@@ -61,6 +61,7 @@ body{
     .mhead{
         display: block;
         margin-top: 1.5em;
+        font-size: 2em;
     }
   .footerimg {
     width: 10%;
