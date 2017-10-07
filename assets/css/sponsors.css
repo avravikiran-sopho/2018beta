@@ -48,7 +48,7 @@ h1{
 	text-align: center;
 	font-family: 'Josefin Sans',sans-serif;
 	margin-bottom: 0;
-	font-size:63px;
+	font-size:40px;
 }
 
 .footerimg {
@@ -110,7 +110,7 @@ hr{
     padding-top:0;
     margin-bottom: 5em;
   	border: 1.5px solid #dafcff;
-    width: 40%;
+    width: 20%;
     text-align: center;
     -webkit-box-shadow: 0px 0px 289px 104px rgba(0,131,177,0.77);
     -moz-box-shadow: 0px 0px 289px 104px rgba(0,131,177,0.77);
