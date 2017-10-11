@@ -23,6 +23,9 @@ body {
   overflow-x: hidden;
 }
 
+.card {
+  margin: 0;
+}
 .titlesponsors {
     padding: 0 4em;
     width: 50%;
